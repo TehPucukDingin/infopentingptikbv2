@@ -1,0 +1,49 @@
+# =========================
+# CORE DEPENDENCIES
+# =========================
+
+discord.py>=2.3.0
+pytz>=2023.3
+
+# =========================
+# SYSTEM UTILITIES
+# =========================
+
+psutil>=5.9.0
+
+# =========================
+# OPTIONAL: ASYNC ENHANCEMENTS
+# =========================
+
+# aiohttp sudah termasuk di discord.py, tapi bisa dipisah jika perlu
+# aiohttp>=3.8.0
+
+# =========================
+# OPTIONAL: DATABASE (Jika ingin upgrade dari JSON)
+# =========================
+
+# SQLite (built-in Python, no install needed)
+# Untuk PostgreSQL:
+# asyncpg>=0.28.0
+# psycopg2-binary>=2.9.0
+
+# Untuk MongoDB:
+# motor>=3.3.0
+# pymongo>=4.5.0
+
+# =========================
+# OPTIONAL: UTILITIES
+# =========================
+
+python-dotenv>=1.0.0      # Untuk load .env file (alternatif os.getenv)
+requests>=2.31.0          # HTTP requests jika perlu API eksternal
+Pillow>=10.0.0            # Image processing (untuk fitur image manipulation)
+
+# =========================
+# DEVELOPMENT / DEBUGGING
+# =========================
+
+# pytest>=7.4.0           # Testing framework
+# pytest-asyncio>=0.21.0  # Async test support
+# black>=23.0.0           # Code formatter
+# flake8>=6.0.0           # Linter
