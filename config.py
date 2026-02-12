@@ -6,7 +6,7 @@ import pytz
 # =========================
 
 TOKEN = os.getenv("TOKEN")
-REMINDER_CHANNEL_ID = 1471503842205106216
+REMINDER_CHANNEL_ID = 1471544410364842166
 ROLE_ID = 1428267266222460948
 DATA_FILE = "tugas.json"
 
@@ -27,4 +27,5 @@ REMINDER_COLORS = {
     "3h": 0xe67e22,       # Oranye
     "1h": 0xe74c3c,       # Merah
     "deadline": 0x992d22  # Merah tua
+
 }
