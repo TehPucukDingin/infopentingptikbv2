@@ -7,7 +7,7 @@ import pytz
 
 TOKEN = os.getenv("TOKEN")
 REMINDER_CHANNEL_ID = 1471544410364842166
-ROLE_ID = 1428267266222460948
+ROLE_ID = 1428264636549169152
 DATA_FILE = "tugas.json"
 
 # Timezone
@@ -29,3 +29,4 @@ REMINDER_COLORS = {
     "deadline": 0x992d22  # Merah tua
 
 }
+
